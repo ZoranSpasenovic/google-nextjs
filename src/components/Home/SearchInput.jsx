@@ -50,14 +50,14 @@ export default function SearchInput() {
       <div className="flex justify-center gap-4 mt-8 flex-col sm:flex-row">
         <button
           onClick={handleSubmit}
-          className="rounded-md transition-shadow bg-[#f8f9fa] w-36 h-10 hover:shadow-md hover:ring-gray-200 focus:outline-none text-gray-800"
+          className="rounded-md text-sm transition-shadow bg-[#f8f9fa] w-36 h-10 hover:shadow-md hover:ring-gray-200 focus:outline-none text-gray-800"
         >
           Google Search
         </button>
         <button
           disabled={loading}
           onClick={handleRadnomWord}
-          className="rounded-md transition-shadow bg-[#f8f9fa] w-36 h-10 hover:shadow-md hover:ring-gray-200 focus:outline-none text-gray-800"
+          className="rounded-md text-sm transition-shadow bg-[#f8f9fa] w-36 h-10 hover:shadow-md hover:ring-gray-200 focus:outline-none text-gray-800"
         >
           {loading ? "Loading..." : "I am Felling Lucky"}
         </button>
