@@ -10,7 +10,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center mt-12">
         <Image
           priority
-          style={{ width: "auto" }}
+          style={{ width: "auto"}}
           alt="google logo"
           width={300}
           height={100}
